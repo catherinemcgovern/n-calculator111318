@@ -1,0 +1,15 @@
+
+
+@{
+    Layout = null;
+}
+
+<h1>Ceiling Result</h1>
+<p>@ViewData["CeilingResult"]</p>
+
+@{
+    decimal number = Convert.ToDecimal(ViewData["Left"]);
+    decimal result = number;
+}
+
+<p>The final answer is <strong>@result</strong></p>

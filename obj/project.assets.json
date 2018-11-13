@@ -11506,11 +11506,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Catherine\\Desktop\\5360-Ob-des-abd-Anal\\Babb-Class\\MVC-InclassExercise\\MyWebCalculator\\MyWebCalculator.csproj",
+      "projectUniqueName": "C:\\Users\\Catherine\\Desktop\\5360-Ob-des-abd-Anal\\Babb-Class\\MVC-InClass-11-12-F\\MyWebCalculator\\MyWebCalculator.csproj",
       "projectName": "MyWebCalculator",
-      "projectPath": "C:\\Users\\Catherine\\Desktop\\5360-Ob-des-abd-Anal\\Babb-Class\\MVC-InclassExercise\\MyWebCalculator\\MyWebCalculator.csproj",
+      "projectPath": "C:\\Users\\Catherine\\Desktop\\5360-Ob-des-abd-Anal\\Babb-Class\\MVC-InClass-11-12-F\\MyWebCalculator\\MyWebCalculator.csproj",
       "packagesPath": "C:\\Users\\Catherine\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Catherine\\Desktop\\5360-Ob-des-abd-Anal\\Babb-Class\\MVC-InclassExercise\\MyWebCalculator\\obj\\",
+      "outputPath": "C:\\Users\\Catherine\\Desktop\\5360-Ob-des-abd-Anal\\Babb-Class\\MVC-InClass-11-12-F\\MyWebCalculator\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -2,13 +2,13 @@
     Layout = null;
 }
 
-<h1>Add Result</h1>
-<p>@ViewData["AddResult"]</p>
+<h1>Multiply Result</h1>
+<p>@ViewData["MultiplyResult"]</p>
 
 @{
     int left = Convert.ToInt32(ViewData["Left"]);
     int right = Convert.ToInt32(ViewData["Right"]);
-    int result = left + right;
+    int result = left * right;
 }
 
 <p>The final answer is <strong>@result</strong></p>

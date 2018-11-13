@@ -11,35 +11,60 @@ namespace MyWebCalculator.Controllers
 {
     public class CalculatorController : Controller
     {
+
+        public IActionResult Add(decimal left, decimal right)
+        {
+            ViewData["Left"] = left;
+            ViewData["Right"] = right;
+            ViewData["AddResult"] = $"{left} plus {right} is: {MyMathRoutines.Add(left, right)}";
+            return View();
+        }
    
     
-        public string Add(decimal left, decimal right)
-        {
-            return $"{left} plus {right} is: {MyMathRoutines.Add(left, right)}";
 
+        public IActionResult Subtract(decimal left, decimal right)
+        {
+            ViewData["Left"] = left;
+            ViewData["Right"] = right;
+            ViewData["SubtractResult"] = $"{left} minus {right} is: {MyMathRoutines.Subtract(left, right)}";
+            return View();
         }
 
-        public string Subtract(decimal left, decimal right)
+        public IActionResult Multiply(decimal left, decimal right)
         {
-            return $"{left} minus {right} is: {MyMathRoutines.Subtract(left, right)}";
-
+            ViewData["Left"] = left;
+            ViewData["Right"] = right;
+            ViewData["MultiplyResult"] = $"{left} times {right} is: {MyMathRoutines.Multiply(left, right)}";
+            return View();
         }
 
-        public string Multiply(decimal left, decimal right)
-        {
-            return $"{left} multiplied by {right} is: {MyMathRoutines.Multiply(left, right)}";
 
+        public IActionResult Divide(decimal left, decimal right)
+        {
+            ViewData["Left"] = left;
+            ViewData["Right"] = right;
+            ViewData["DivideResult"] = $"{left} divide {right} is: {MyMathRoutines.Divide(left, right)}";
+            return View();
         }
 
-//        public string Divide(decimal left, decimal right)
-  //      {
-    //        return $"{left} multiplied by {right} is: {MyMathRoutines.Divide(left, right)}";
-//
-  //      }
-
-        public string Ceiling(decimal number)
+        public IActionResult Ceiling(decimal number)
         {
-            return $"The ceiling of {number} is {MyMathRoutines.Ceiling(number)}";
-        }   
+            ViewData["Number"] = number;
+            ViewData["CeilingResult"] = $"The floor of {number} is {MyMathRoutines.Ceiling(number)}";
+            return View();
+        }
+
+
+        public IActionResult Floor(decimal number)
+        {
+            ViewData["Number"] = number;
+            ViewData["FloorResult"] = $"The floor of {number} is {MyMathRoutines.Floor(number)}";
+            return View();
+        }
+
+    //    public string Ceiling(decimal number)
+    //    {
+    //        return $"The ceiling of {number} is {MyMathRoutines.Ceiling(number)}";
+     //   }   
     }
 }

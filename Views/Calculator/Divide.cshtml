@@ -1,0 +1,14 @@
+@{
+    Layout = null;
+}
+
+<h1>Divide Result</h1>
+<p>@ViewData["DivideResult"]</p>
+
+@{
+    decimal left = Convert.ToDecimal(ViewData["Left"]);
+    decimal right = Convert.ToDecimal(ViewData["Right"]);
+    decimal result = left / right;
+}
+
+<p>The final answer is <strong>@result</strong></p>
