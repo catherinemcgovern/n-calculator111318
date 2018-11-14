@@ -70,3 +70,4 @@ C:\Users\Catherine\Desktop\5360-Ob-des-abd-Anal\Babb-Class\MVC-InClass-11-12-F\M
 C:\Users\Catherine\Desktop\5360-Ob-des-abd-Anal\Babb-Class\MVC-InClass-11-12-F\MyWebCalculator\obj\Debug\netcoreapp2.1\Razor\Views\Calculator\Subtract.g.cshtml.cs
 C:\Users\Catherine\Desktop\5360-Ob-des-abd-Anal\Babb-Class\MVC-InClass-11-12-F\MyWebCalculator\obj\Debug\netcoreapp2.1\Razor\Views\Calculator\Ceiling.g.cshtml.cs
 C:\Users\Catherine\Desktop\5360-Ob-des-abd-Anal\Babb-Class\MVC-InClass-11-12-F\MyWebCalculator\obj\Debug\netcoreapp2.1\Razor\Views\Calculator\Divide.g.cshtml.cs
+C:\Users\Catherine\Desktop\5360-Ob-des-abd-Anal\Babb-Class\MVC-InClass-11-12-F\MyWebCalculator\obj\Debug\netcoreapp2.1\Razor\Views\Calculator\Floor.g.cshtml.cs
